@@ -6,11 +6,10 @@ module.exports = {
   dest: "./dist",
 
   themeConfig: {
+    sidebarDepth: 2,
     search: false,
-    sidebar: [
-      '/'
-    ],
-    displayAllHeaders: true, // 默认值：false
+    sidebar: ['FuxiCV'],
+    // displayAllHeaders: true, // 默认值：false
     /*
     nav: [
       { text: "Home", link: "/" },

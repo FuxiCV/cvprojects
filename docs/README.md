@@ -28,14 +28,12 @@ bio: CV Group at Netease Fuxi AI Lab
 - **Hogwarts School of Witchcraft and Wizardry** <br/>
 Sept 1991 - 1997
 -->
-
-## Projects
    
-### Research Projects
+## Research Projects
 
 <ProjectCard hideBorder=false>
 
-  #### SingleView Object Reconstruct
+  ### SingleView Object Reconstruct
 
 
   课题背景：
@@ -65,7 +63,7 @@ Sept 1991 - 1997
 
 <ProjectCard hideBorder=true>
 
-  **2. SingleView Face Reconstruct**
+  ### SingleView Face Reconstruct
 
 
   课题背景：
@@ -99,7 +97,7 @@ Sept 1991 - 1997
 
 <ProjectCard hideBorder=true>
 
-  **3. Face Reenactment**
+  ### Face Reenactment
 
   
   课题背景：
@@ -135,7 +133,7 @@ Sept 1991 - 1997
 
 <ProjectCard hideBorder=true>
 
-  **4. AutoSkinning**
+  ### AutoSkinning
   
 
   问题背景：
@@ -162,7 +160,7 @@ Sept 1991 - 1997
 
 <ProjectCard hideBorder=true>
 
-  **5. Face Appearance Rating**
+  ### Face Appearance Rating
   
 
   课题背景：
@@ -181,7 +179,7 @@ Sept 1991 - 1997
 
 <ProjectCard hideBorder=true>
 
-  **6. Image SuperResolution**
+  ### Image SuperResolution
   
 
   课题背景：
@@ -230,7 +228,7 @@ Sept 1991 - 1997
 
 <ProjectCard hideBorder=true>
 
-  **7. Hair Reconstruct**
+  ### Hair Reconstruct
   
 
   课题背景：
@@ -255,10 +253,10 @@ Sept 1991 - 1997
 
 </ProjectCard>
 
-### Engineering Project
+## Engineering Project
 <ProjectCard hideBorder=true>
 
-  **1. 跨平台的计算机视觉库**
+  ### 跨平台的计算机视觉库
   
 
   课题背景：
@@ -288,7 +286,7 @@ Sept 1991 - 1997
 
 <ProjectCard hideBorder=true>
 
-  **2. 动作风格化**
+  ### 动作风格化
   
 
   课题背景：
@@ -322,7 +320,7 @@ Sept 1991 - 1997
 <ProjectCard hideBorder=true>
 
 
-  **3. 动作数据增强管线**
+  ### 动作数据增强管线
   
   课题背景：
 
@@ -346,7 +344,7 @@ Sept 1991 - 1997
 
 <ProjectCard hideBorder=true>
 
-  **4. 动作数据增强管线**
+  ### 动作数据增强管线
   
   课题背景：
 
@@ -369,7 +367,7 @@ Sept 1991 - 1997
 
 <ProjectCard hideBorder=true>
 
-  **5. 游戏图像画质优化**
+  ### 游戏图像画质优化
   
   课题背景：
 
@@ -404,7 +402,7 @@ Sept 1991 - 1997
 
 <ProjectCard image="/projects/8.jpg" hideBorder=true>
 
-  **Towards High-Fidelity 3D Face Reconstruction from In-the-Wild Images Using Graph Convolutional Networks**
+  ### Towards High-Fidelity 3D Face Reconstruction from In-the-Wild Images Using Graph Convolutional Networks
 
   Jiangke Lin, Yi Yuan\*, Tianjia Shao, Kun Zhou
 
@@ -416,7 +414,7 @@ Sept 1991 - 1997
 
 <ProjectCard image="/projects/7.jpg" hideBorder=true>
 
-  **Fast and Robust Face-to-Parameter Translation for Game Character Auto-creation**
+  ### Fast and Robust Face-to-Parameter Translation for Game Character Auto-creation
   
   Tianyang Shi, Zhengxia Zou, Yi Yuan\*, Changjie Fan
 
@@ -426,7 +424,7 @@ Sept 1991 - 1997
 
 <ProjectCard image="/projects/6.jpg" hideBorder=true>
 
-  **FDN: Feature Decoupling Network for Head Pose Estimation**
+  ### FDN: Feature Decoupling Network for Head Pose Estimation
   
   Hao Zhang, Mengmeng Wang, Yong Liu, Yi Yuan
 
@@ -436,7 +434,7 @@ Sept 1991 - 1997
 
 <ProjectCard image="/projects/5.jpg" hideBorder=true>
 
-  **Face-to-Parameter Translation for Game Character Auto-Creation**
+  ### Face-to-Parameter Translation for Game Character Auto-Creation
   
   Tianyang Shi, Yi Yuan\*, Changjie Fan, Zhengxia Zou, Zhenwei Shi, Yong Liu
 
@@ -448,7 +446,7 @@ Sept 1991 - 1997
 
 <ProjectCard image="/projects/4.jpg" hideBorder=true>
 
-  **NeuroSkinning: Automatic Skin Binding for Production Characters with Deep Graph Networks**
+  ### NeuroSkinning: Automatic Skin Binding for Production Characters with Deep Graph Networks
   
   Lijuan Liu, Youyi Zheng, Di Tang, Yi Yuan, Changjie Fan, Kun Zhou
 
