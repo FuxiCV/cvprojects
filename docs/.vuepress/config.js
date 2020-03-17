@@ -9,7 +9,8 @@ module.exports = {
     search: false,
     sidebar: [
       '/'
-    ]
+    ],
+    displayAllHeaders: true, // 默认值：false
     /*
     nav: [
       { text: "Home", link: "/" },
