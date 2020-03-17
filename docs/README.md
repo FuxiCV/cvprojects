@@ -1,30 +1,26 @@
+@@ -1,501 +0,0 @@
 ---
 pageClass: home-page
 # some data for the components
 
-name: Yi Yuan
-profile: /profile.jpg
+name: Fuxi CV Projects
+profile: /fuxi.png
 
 socials:
-  - title: github
-    icon: "/icons/github.svg"
-    link: https://github.com/yiyuan1991
   - title: email
     icon: "/icons/email.svg"
     link: 'mailto:yyshawn@163.com'
 
 # cv: https://en.wikipedia.org/wiki/Harry_Potter
-bio: CV Reasearcher at Netease Fuxi AI Lab
+bio: CV Group at Netease Fuxi AI Lab
 # email: yyshawn (at) 163 (dot) com
 ---
 
 <ProfileSection :frontmatter="$page.frontmatter" />
 
-## About Me
+## About
 
-I am a Computer Vision Researcher at Netease Fuxi AI Lab as of 2017 after receiving my PhD from Wuhan University. My research interests are in game related computer vision and deep learning.
-
-Welcome to send your resume to apply for an internship.
+以下课题均为网易游戏伏羲实验室图像动作组在探索AI+游戏落地中总结出的高价值研究课题，欢迎所有对以下课题有兴趣的同仁与我们合作，共同推进课题，发表前沿论文；
 
 <!--
 
@@ -33,21 +29,12 @@ Welcome to send your resume to apply for an internship.
 - **Hogwarts School of Witchcraft and Wizardry** <br/>
 Sept 1991 - 1997
 -->
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-## Publications
-=======
-=======
->>>>>>> parent of c533aa7... v3
-
-## Projects
    
-### Research Projects
+## Research Projects
 
 <ProjectCard hideBorder=false>
 
-  #### SingleView Object Reconstruct
+  ### SingleView Object Reconstruct
 
 
   课题背景：
@@ -77,7 +64,7 @@ Sept 1991 - 1997
 
 <ProjectCard hideBorder=true>
 
-  **2. SingleView Face Reconstruct**
+  ### SingleView Face Reconstruct
 
 
   课题背景：
@@ -111,7 +98,7 @@ Sept 1991 - 1997
 
 <ProjectCard hideBorder=true>
 
-  **3. Face Reenactment**
+  ### Face Reenactment
 
   
   课题背景：
@@ -147,7 +134,7 @@ Sept 1991 - 1997
 
 <ProjectCard hideBorder=true>
 
-  **4. AutoSkinning**
+  ### AutoSkinning
   
 
   问题背景：
@@ -174,7 +161,7 @@ Sept 1991 - 1997
 
 <ProjectCard hideBorder=true>
 
-  **5. Face Appearance Rating**
+  ### Face Appearance Rating
   
 
   课题背景：
@@ -193,7 +180,7 @@ Sept 1991 - 1997
 
 <ProjectCard hideBorder=true>
 
-  **6. Image SuperResolution**
+  ### Image SuperResolution
   
 
   课题背景：
@@ -242,7 +229,7 @@ Sept 1991 - 1997
 
 <ProjectCard hideBorder=true>
 
-  **7. Hair Reconstruct**
+  ### Hair Reconstruct
   
 
   课题背景：
@@ -252,49 +239,55 @@ Sept 1991 - 1997
   问题定义：
 
   - 输入一张或多张含有头发的上半身图像，生成3d头发模型。最终的输出是发丝级别的数据。
->>>>>>> parent of c533aa7... v3
 
-<ProjectCard image="/projects/8.jpg" hideBorder=true>
+  问题挑战：
 
-  **Towards High-Fidelity 3D Face Reconstruction from In-the-Wild Images Using Graph Convolutional Networks**
+  - 图像超分辨是一个不适定问题（ill-posed inverse problem），即对于一张低分辨图像，它可以由多种不同的高分辨图像通过同样的降采样过程得到，这使得图像的降质过程是不可逆的。
 
-  Jiangke Lin, **Yi Yuan\***, Tianjia Shao, Kun Zhou
+  指标评价：
 
-  Computer Vision and Pattern Recognition (CVPR), 2020
+  - 对于图像超分辨指标的评价，通常分为有参考指标与无参考指标两个方面：
   
-  [[PDF](https://arxiv.org/pdf/2003.05653.pdf)] [[arXiv](https://arxiv.org/abs/2003.05653)]
+  数据集描述：
+
+  - [[HairNet](https://github.com/papagina/HairNet_DataSetGeneration)]
 
 </ProjectCard>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<ProjectCard image="/projects/7.jpg" hideBorder=true>
-
-  **Fast and Robust Face-to-Parameter Translation for Game Character Auto-creation**
-=======
-=======
->>>>>>> parent of c533aa7... v3
-### Engineering Project
+## Engineering Project
 <ProjectCard hideBorder=true>
 
-  **1. 跨平台的计算机视觉库**
-<<<<<<< HEAD
->>>>>>> parent of c533aa7... v3
-=======
->>>>>>> parent of c533aa7... v3
+  ### 跨平台的计算机视觉库
   
-  Tianyang Shi, Zhengxia Zou, **Yi Yuan\***, Changjie Fan
 
-  the Association for the Advance of Artificial Intelligence (AAAI), 2020
+  课题背景：
+
+  - 现如今，计算机视觉算法在全平台（Windows、Linux、Mac、iOS和Android）的部署变得越来越常见，为了帮助算法在全平台的高效和稳定的运行，  同时也为了保证算法接入的便捷性，因此构造一个高兼容性、强拓展性、低功耗和低占用的跨平台的计算机视觉库也变得至关重要。
+
+
+  问题定义：
+
+  - 能够保证全平台（Windows、Linux、Mac、iOS和Android）的兼容性。
+  - 保证该库的接口友好，方便使用者接入。
+  - 具备低功耗和库占用较小的特点，保证将该库接入的模块的最终包体小且运行稳定。
+  - 为了满足低占用的特性，该库只要能够满足基础的图像单元增删改功能，具体可参考opencv的core模块，同时接口设计具有较强的拓展性，方便之后模块和功能的添加。
+
+  问题挑战：
+
+  - 全平台的兼容性需要对全平台具有全面的理解。
+  - 稳定和低功耗需要不断的完善和优化。
+
+  指标评价：
+
+  - 高兼容性是否满足，能够在哪些平台上运行。
+  - 强拓展性是否满足，接口的设计方便后续拓展。
+  - 低功耗和低占用是否满足，接入后是否能够稳定运行。
 
 </ProjectCard>
 
-<<<<<<< HEAD
-<ProjectCard image="/projects/6.jpg" hideBorder=true>
-=======
 <ProjectCard hideBorder=true>
 
-  **2. 动作风格化**
+  ### 动作风格化
   
 
   课题背景：
@@ -303,101 +296,126 @@ Sept 1991 - 1997
 
 
   问题定义：
->>>>>>> parent of c533aa7... v3
 
-  **FDN: Feature Decoupling Network for Head Pose Estimation**
+  - 通过基准动作数据与风格化动作数据在编码空间中的混合编辑，生成目标风格化动作。
   
-  Hao Zhang, Mengmeng Wang, Yong Liu, **Yi Yuan**
+  - 输入 1）基准动作数据 2）参考风格动作数据， 输出：带有参考动作风格的基准动作。
+  
+  - 例：输入行走序列作为基准动作数据，以及醉酒序列作为参考风格动作数据，生成带有醉酒风格的行走动作序列。
 
-  the Association for the Advance of Artificial Intelligence (AAAI), 2020
+
+  问题挑战：
+
+  - 全平台的兼容性需要对全平台具有全面的理解。
+  - 稳定和低功耗需要不断的完善和优化。
+
+
+  指标评价：
+
+  - 高兼容性是否满足，能够在哪些平台上运行。
+  - 强拓展性是否满足，接口的设计方便后续拓展。
+  - 低功耗和低占用是否满足，接入后是否能够稳定运行。
 
 </ProjectCard>
 
-<ProjectCard image="/projects/5.jpg" hideBorder=true>
+<ProjectCard hideBorder=true>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-  **Face-to-Parameter Translation for Game Character Auto-Creation**
-=======
-  **3. 动作数据增强管线**
->>>>>>> parent of c533aa7... v3
-=======
-  **3. 动作数据增强管线**
->>>>>>> parent of c533aa7... v3
+
+  ### 动作数据增强管线
   
-  Tianyang Shi, **Yi Yuan\***, Changjie Fan, Zhengxia Zou, Zhenwei Shi, Yong Liu
+  课题背景：
 
-  International Conference on Computer Vision (ICCV), 2019
+  - 在动作生成算法中，动画数据集的扩充能够有效地提升模型在不同场景配置中的通用性效果，避免生成具有交互性的动作时动作在不同尺寸物体上出现穿模，不匹配等效果。[SIGGRAPH Asia 2019] Neural State Machine for Character-Scene Interactions 提出了针对坐下、搬运等动作的数据集扩充方案。
 
-  [[PDF](https://arxiv.org/pdf/1909.01064.pdf)] [[arxiv](https://arxiv.org/abs/1909.01064)]
+
+  问题定义：
+
+  - 定义增强管线，根据动作内容，定义动作约束，调整动作约束，反推动作曲线，生成新动作，检验新动作
+
+
+  问题挑战：
+
+  - 管线依赖工具平台
+  - 动作约束的泛用性
+  - 反推运动曲线算法
+  - 整体工程的结构性及管线高效性
+  - 适用场景开放性
 
 </ProjectCard>
 
-<ProjectCard image="/projects/4.jpg" hideBorder=true>
+<ProjectCard hideBorder=true>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-  **NeuroSkinning: Automatic Skin Binding for Production Characters with Deep Graph Networks**
-=======
-  **4. 动作数据增强管线**
->>>>>>> parent of c533aa7... v3
-=======
-  **4. 动作数据增强管线**
->>>>>>> parent of c533aa7... v3
+  ### 动作数据增强管线
   
-  Lijuan Liu, Youyi Zheng, Di Tang, **Yi Yuan**, Changjie Fan, Kun Zhou
+  课题背景：
 
-  ACM Transactions on Graphics (SIGGRAPH), 2019 (Oral)
+  - 动作捕捉是游戏制作中动作来源的主要方式之一，目前成熟方案主要通过高成本硬件设备进行捕捉，低成本的RGB视频捕捉技术在面向玩家的内容制作上有更广阔的空间，视频捕捉通过姿态估计方法提取视频中的人物3D动作并进行必要的后处理以驱动骨骼角色
 
-  [[PDF](https://nos.netease.com/mg-file/mg/neteasegamecampus/art_works/20190624/201906242016238583.pdf)] [[Data](http://fuxi.163.com/thesis/neuro.html)] 
+
+  问题定义：
+
+  - 给定包含人物身体运动的视频，生成驱动骨骼的动作信息(关节旋转)
+
+
+  问题挑战：
+
+  - 视频姿态估计的准确性
+  - 相机抖动情形的优化
+  - 未知相机参数下相机空间与世界空间的转化
+  - 动作提取的稳定性、真实性
 
 </ProjectCard>
 
-<ProjectCard image="/projects/3.jpg" hideBorder=true>
+<ProjectCard hideBorder=true>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-  **Random Forest and Objected-Based Classification for Forest Pest Extraction from UAV Aerial Imagery**
-=======
-  **5. 游戏图像画质优化**
->>>>>>> parent of c533aa7... v3
-=======
-  **5. 游戏图像画质优化**
->>>>>>> parent of c533aa7... v3
+  ### 游戏图像画质优化
   
-  **Yi Yuan**, X. Hu
+  课题背景：
 
-  ISPRS, 2016 (Oral)
+  - 在计算机中，因为与具有连续平滑曲线和线条的现实世界对象不同，计算机屏幕向观众显示大量的小正方形，称为“像素”。这些像素都有相同的大小，每个像素都只有一种颜色，一条线只能显示为一组像素。因此除非它是完全水平或垂直的，否则其中像素化的边缘会显示为锯齿状。由于显卡的栅格化渲染，锯齿在游戏中普遍存在，出于硬件限制，在移动端游戏中锯齿化更为明显。
+  
+  - 抗锯齿即用于从计算机游戏或其他生成图像的计算机程序中渲染的图像中消除锯齿。根据抗锯齿方法的原理，传统的抗锯齿方法可分为两种：（1）通过增加图像的采样率，提高实际渲染的图像分辨率，进而降采样至需求的分辨率，达到抗锯齿的效果，其代表方法有超级采样抗锯齿（Super-Sampling Anti-Aliasing）、多重采样抗锯齿（Multi-Sampling Anti-Aliasing）等；（2）显卡以原始采样率渲染图像，然后使用一系列模糊边缘等后处理操作进行抗锯齿，其代表方法有快速近似抗锯齿（Fast Approximate Anti-Aliasing）、随机采样抗锯齿（Temporal Anti-Aliasing）等。
+  
+  - NVIDIA公司在2019年初推出了一项深度学习超级采样（Deep Learning Super-Sampling）技术，这是首个使用神经网络技术进行图像抗锯齿的成功尝试。DLSS技术基于图像超分辨，可以使显卡以较低分辨率（1080p）渲染画面，并以较高分辨率（2K或4K）进行输出与展示，并且达到抗锯齿的效果，这样就大大降低了3A大作特效全开的显卡渲染压力，提高了帧率。但是，DLSS基于RTX显卡架构，RTX显卡具有适用于加速神经网络计算的Turing Tensor，Turing Tensor独立于CUDA Tensor，可以在不影响游戏渲染速度的前提下，实时对渲染帧进行超分辨处理。
 
-  [[PDF](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLI-B1/1093/2016/)]
+
+  问题定义：
+
+  - 本项目是在通用显卡上运行的基于神经网络的游戏图像抗锯齿技术方案，并通过网络服务对移动端游戏的画面进行抗锯齿优化。
+
+
+  问题挑战：
+
+  - 在相同分辨率下，对游戏图像进行抗锯齿处理
+  - 获取符合要求的训练集
+  - 提高算法与部署服务的效率，满足玩家的正常需求
+
+  指标评价：
+
+  - 功能完整性，完成功能描述所列举的功能
+  - 功能创新性，创造性设计功能描述中列举的功能，或者设计了其他创造性的功能
+  - 技术新颖性，所用技术新颖
+  - 技术难度，开发功能和使用技术具有一定的难度
 
 </ProjectCard>
 
-<ProjectCard image="/projects/2.jpg" hideBorder=true>
+## Publications
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-  **Deep-Learning-Based Classification for DTM Extraction from ALS Point Cloud**
-=======
-=======
->>>>>>> parent of c533aa7... v3
-  **Towards High-Fidelity 3D Face Reconstruction from In-the-Wild Images Using Graph Convolutional Networks**
+<ProjectCard image="/projects/8.jpg" hideBorder=true>
+
+  ### Towards High-Fidelity 3D Face Reconstruction from In-the-Wild Images Using Graph Convolutional Networks
 
   Jiangke Lin, Yi Yuan\*, Tianjia Shao, Kun Zhou
 
   Computer Vision and Pattern Recognition (CVPR), 2020
->>>>>>> parent of c533aa7... v3
   
-  X. Hu, **Yi Yuan\***
+  [[PDF](https://arxiv.org/pdf/2003.05653.pdf)] [[arXiv](https://arxiv.org/abs/2003.05653)]
 
-  Remote Sensing, 2016
+</ProjectCard>
 
-<<<<<<< HEAD
-  [[PDF](https://www.mdpi.com/2072-4292/8/9/730/htm)]
-=======
 <ProjectCard image="/projects/7.jpg" hideBorder=true>
 
-  **Fast and Robust Face-to-Parameter Translation for Game Character Auto-creation**
+  ### Fast and Robust Face-to-Parameter Translation for Game Character Auto-creation
   
   Tianyang Shi, Zhengxia Zou, Yi Yuan\*, Changjie Fan
 
@@ -407,51 +425,37 @@ Sept 1991 - 1997
 
 <ProjectCard image="/projects/6.jpg" hideBorder=true>
 
-  **FDN: Feature Decoupling Network for Head Pose Estimation**
+  ### FDN: Feature Decoupling Network for Head Pose Estimation
   
   Hao Zhang, Mengmeng Wang, Yong Liu, Yi Yuan
 
   the Association for the Advance of Artificial Intelligence (AAAI), 2020
->>>>>>> parent of c533aa7... v3
 
 </ProjectCard>
 
-<ProjectCard image="/projects/1.jpg" hideBorder=true>
+<ProjectCard image="/projects/5.jpg" hideBorder=true>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-  **Bag-of-Words and Object-Based Classification for Cloud Extraction From Satellite Imagery**
-=======
-  **Face-to-Parameter Translation for Game Character Auto-Creation**
->>>>>>> parent of c533aa7... v3
-=======
-  **Face-to-Parameter Translation for Game Character Auto-Creation**
->>>>>>> parent of c533aa7... v3
+  ### Face-to-Parameter Translation for Game Character Auto-Creation
   
-  **Yi Yuan**, X. Hu
+  Tianyang Shi, Yi Yuan\*, Changjie Fan, Zhengxia Zou, Zhenwei Shi, Yong Liu
 
-  JSTARS, 2015
+  International Conference on Computer Vision (ICCV), 2019
 
-  [[PDF](https://ieeexplore.ieee.org/document/7112467)]
+  [[PDF](https://arxiv.org/pdf/1909.01064.pdf)] [[arxiv](https://arxiv.org/abs/1909.01064)]
 
 </ProjectCard>
 
-## Awards & Honors
+<ProjectCard image="/projects/4.jpg" hideBorder=true>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **Excellent Graduate Student of Wuhan University, 2017**
-=======
-=======
->>>>>>> parent of c533aa7... v3
-  **NeuroSkinning: Automatic Skin Binding for Production Characters with Deep Graph Networks**
+  ### NeuroSkinning: Automatic Skin Binding for Production Characters with Deep Graph Networks
   
   Lijuan Liu, Youyi Zheng, Di Tang, Yi Yuan, Changjie Fan, Kun Zhou
->>>>>>> parent of c533aa7... v3
 
-- **National Scholarship for Doctoral Students, 2016**
+  ACM Transactions on Graphics (SIGGRAPH), 2019 (Oral)
 
-- **National Scholarship for Doctoral Students, 2015**
+  [[PDF](https://nos.netease.com/mg-file/mg/neteasegamecampus/art_works/20190624/201906242016238583.pdf)] [[Data](http://fuxi.163.com/thesis/neuro.html)] 
+
+</ProjectCard>
 
 <!-- Custom style for this page -->
 
