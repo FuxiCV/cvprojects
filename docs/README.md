@@ -34,9 +34,12 @@ Welcome to send your resume to apply for an internship.
 Sept 1991 - 1997
 -->
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ## Publications
 =======
+=======
+>>>>>>> parent of c533aa7... v3
 
 ## Projects
    
@@ -264,14 +267,20 @@ Sept 1991 - 1997
 </ProjectCard>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <ProjectCard image="/projects/7.jpg" hideBorder=true>
 
   **Fast and Robust Face-to-Parameter Translation for Game Character Auto-creation**
 =======
+=======
+>>>>>>> parent of c533aa7... v3
 ### Engineering Project
 <ProjectCard hideBorder=true>
 
   **1. 跨平台的计算机视觉库**
+<<<<<<< HEAD
+>>>>>>> parent of c533aa7... v3
+=======
 >>>>>>> parent of c533aa7... v3
   
   Tianyang Shi, Zhengxia Zou, **Yi Yuan\***, Changjie Fan
@@ -307,7 +316,11 @@ Sept 1991 - 1997
 <ProjectCard image="/projects/5.jpg" hideBorder=true>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   **Face-to-Parameter Translation for Game Character Auto-Creation**
+=======
+  **3. 动作数据增强管线**
+>>>>>>> parent of c533aa7... v3
 =======
   **3. 动作数据增强管线**
 >>>>>>> parent of c533aa7... v3
@@ -323,7 +336,11 @@ Sept 1991 - 1997
 <ProjectCard image="/projects/4.jpg" hideBorder=true>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   **NeuroSkinning: Automatic Skin Binding for Production Characters with Deep Graph Networks**
+=======
+  **4. 动作数据增强管线**
+>>>>>>> parent of c533aa7... v3
 =======
   **4. 动作数据增强管线**
 >>>>>>> parent of c533aa7... v3
@@ -339,7 +356,11 @@ Sept 1991 - 1997
 <ProjectCard image="/projects/3.jpg" hideBorder=true>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   **Random Forest and Objected-Based Classification for Forest Pest Extraction from UAV Aerial Imagery**
+=======
+  **5. 游戏图像画质优化**
+>>>>>>> parent of c533aa7... v3
 =======
   **5. 游戏图像画质优化**
 >>>>>>> parent of c533aa7... v3
@@ -355,8 +376,11 @@ Sept 1991 - 1997
 <ProjectCard image="/projects/2.jpg" hideBorder=true>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   **Deep-Learning-Based Classification for DTM Extraction from ALS Point Cloud**
 =======
+=======
+>>>>>>> parent of c533aa7... v3
   **Towards High-Fidelity 3D Face Reconstruction from In-the-Wild Images Using Graph Convolutional Networks**
 
   Jiangke Lin, Yi Yuan\*, Tianjia Shao, Kun Zhou
@@ -395,7 +419,11 @@ Sept 1991 - 1997
 <ProjectCard image="/projects/1.jpg" hideBorder=true>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   **Bag-of-Words and Object-Based Classification for Cloud Extraction From Satellite Imagery**
+=======
+  **Face-to-Parameter Translation for Game Character Auto-Creation**
+>>>>>>> parent of c533aa7... v3
 =======
   **Face-to-Parameter Translation for Game Character Auto-Creation**
 >>>>>>> parent of c533aa7... v3
@@ -411,8 +439,11 @@ Sept 1991 - 1997
 ## Awards & Honors
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Excellent Graduate Student of Wuhan University, 2017**
 =======
+=======
+>>>>>>> parent of c533aa7... v3
   **NeuroSkinning: Automatic Skin Binding for Production Characters with Deep Graph Networks**
   
   Lijuan Liu, Youyi Zheng, Di Tang, Yi Yuan, Changjie Fan, Kun Zhou
