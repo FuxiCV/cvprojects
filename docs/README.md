@@ -2,7 +2,7 @@
 pageClass: home-page
 # some data for the components
 
-name: Fuxi CV Projects
+name: Fuxi CV
 profile: /fuxi.png
 
 socials:
@@ -11,7 +11,7 @@ socials:
     link: 'mailto:yyshawn@163.com'
 
 # cv: https://en.wikipedia.org/wiki/Harry_Potter
-bio: CV Group at Netease Fuxi AI Lab
+bio: Computer Vision Group at Netease Fuxi AI Lab
 # email: yyshawn (at) 163 (dot) com
 ---
 
@@ -19,7 +19,7 @@ bio: CV Group at Netease Fuxi AI Lab
 
 ## About
 
-以下课题均为网易游戏伏羲实验室图像动作组在探索AI+游戏落地中总结出的高价值研究课题，欢迎所有对以下课题有兴趣的同仁与我们合作，共同推进课题，发表前沿论文；
+[网易游戏伏羲实验室(https://fuxi.163.com/)]图像动作组致力于以AI技术赋能游戏制作和玩法交互，增强游戏沉浸感，这里列出了我们在探索AI+游戏落地中总结出的部分高价值研究课题，欢迎所有对此有兴趣的同仁与我们合作，共同推进课题落地和论文发表。
 
 <!--
 
@@ -152,7 +152,7 @@ Sept 1991 - 1997
   - 骨骼、mesh的语义
   - 问题的建模形式
   
-  数据集：
+  数据集描述：
 
   - 真实游戏中积累的历史蒙皮数据(每个模型包括mesh/骨骼及相应蒙皮权重)
 
@@ -203,15 +203,11 @@ Sept 1991 - 1997
   指标评价：
 
   - 对于图像超分辨指标的评价，通常分为有参考指标与无参考指标两个方面：
-  
-  有参考指标：
-
-  - 峰值信噪比（Peak Signal-to-Noise Ratio）：在像素维度衡量超分辨图像与高分辨图像的（均方）误差，指标通常在20~40之间，值越高表示图像越相似。
-  - 结构相似度（Structural SIMilarity）：通过计算像素的均值、方差、协方差等指标，衡量超分辨图像与高分辨图像的感知误差，指标在0~1之间，值越高表示图像越相似。
-  
-  无参考指标：
-
-  - Perceptual Index：由Ma score与NIQE计算得到，表示图像的“真实度”，指标在0~1之间，值越高表示图像越“真实”
+  - 有参考指标：
+   - 峰值信噪比（Peak Signal-to-Noise Ratio）：在像素维度衡量超分辨图像与高分辨图像的（均方）误差，指标通常在20~40之间，值越高表示图像越相似。
+   - 结构相似度（Structural SIMilarity）：通过计算像素的均值、方差、协方差等指标，衡量超分辨图像与高分辨图像的感知误差，指标在0~1之间，值越高表示图像越相似。
+  - 无参考指标：
+   - Perceptual Index：由Ma score与NIQE计算得到，表示图像的“真实度”，指标在0~1之间，值越高表示图像越“真实”
 
   数据集描述：
 
@@ -253,7 +249,7 @@ Sept 1991 - 1997
 
 </ProjectCard>
 
-## Engineering Project
+## Engineering Projects
 <ProjectCard hideBorder=true>
 
   ### 跨平台的计算机视觉库
@@ -344,7 +340,7 @@ Sept 1991 - 1997
 
 <ProjectCard hideBorder=true>
 
-  ### 动作数据增强管线
+  ### 基于视频的动作捕捉优化
   
   课题背景：
 
@@ -402,7 +398,7 @@ Sept 1991 - 1997
 
 <ProjectCard image="/projects/8.jpg" hideBorder=true>
 
-  ### Towards High-Fidelity 3D Face Reconstruction from In-the-Wild Images Using Graph Convolutional Networks
+  #### Towards High-Fidelity 3D Face Reconstruction from In-the-Wild Images Using Graph Convolutional Networks
 
   Jiangke Lin, Yi Yuan\*, Tianjia Shao, Kun Zhou
 
@@ -414,7 +410,7 @@ Sept 1991 - 1997
 
 <ProjectCard image="/projects/7.jpg" hideBorder=true>
 
-  ### Fast and Robust Face-to-Parameter Translation for Game Character Auto-creation
+  #### Fast and Robust Face-to-Parameter Translation for Game Character Auto-creation
   
   Tianyang Shi, Zhengxia Zou, Yi Yuan\*, Changjie Fan
 
@@ -424,7 +420,7 @@ Sept 1991 - 1997
 
 <ProjectCard image="/projects/6.jpg" hideBorder=true>
 
-  ### FDN: Feature Decoupling Network for Head Pose Estimation
+  #### FDN: Feature Decoupling Network for Head Pose Estimation
   
   Hao Zhang, Mengmeng Wang, Yong Liu, Yi Yuan
 
@@ -434,7 +430,7 @@ Sept 1991 - 1997
 
 <ProjectCard image="/projects/5.jpg" hideBorder=true>
 
-  ### Face-to-Parameter Translation for Game Character Auto-Creation
+  #### Face-to-Parameter Translation for Game Character Auto-Creation
   
   Tianyang Shi, Yi Yuan\*, Changjie Fan, Zhengxia Zou, Zhenwei Shi, Yong Liu
 
@@ -446,7 +442,7 @@ Sept 1991 - 1997
 
 <ProjectCard image="/projects/4.jpg" hideBorder=true>
 
-  ### NeuroSkinning: Automatic Skin Binding for Production Characters with Deep Graph Networks
+  #### NeuroSkinning: Automatic Skin Binding for Production Characters with Deep Graph Networks
   
   Lijuan Liu, Youyi Zheng, Di Tang, Yi Yuan, Changjie Fan, Kun Zhou
 
@@ -455,6 +451,11 @@ Sept 1991 - 1997
   [[PDF](https://nos.netease.com/mg-file/mg/neteasegamecampus/art_works/20190624/201906242016238583.pdf)] [[Data](http://fuxi.163.com/thesis/neuro.html)] 
 
 </ProjectCard>
+
+## Reports
+- [机器之心：《只需一张自拍，网易伏羲用这种方法直接生成「个人专属」游戏角色(https://www.jiqizhixin.com/articles/2019-09-09-18)]
+- [九游：《逆水寒》AI智能捏脸及双脸融合功能系统上线(http://www.9game.cn/news/2696879.html)]
+
 
 <!-- Custom style for this page -->
 

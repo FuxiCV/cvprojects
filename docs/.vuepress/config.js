@@ -7,11 +7,9 @@ module.exports = {
   dest: "./dist",
 
   themeConfig: {
-    sidebarDepth: 2,
     search: false,
-    sidebar: [
-      ''
-  ],
+    sidebar: 'auto',
+    // sidebarDepth: 2,
     displayAllHeaders: false, // 默认值：false
     /*
     nav: [
