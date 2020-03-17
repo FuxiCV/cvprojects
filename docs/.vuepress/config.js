@@ -1,12 +1,15 @@
 module.exports = {
-  title: "Yi Yuan",
+  title: "FuxiCV",
   description: "The description of the site.",
   head: [["link", { rel: "icon", href: `/icons/favicon.ico` }]],
-  base: "/",
+  base: "/fuxicv/",
   dest: "./dist",
 
   themeConfig: {
     search: false,
+    sidebar: [
+      '/'
+    ]
     /*
     nav: [
       { text: "Home", link: "/" },
