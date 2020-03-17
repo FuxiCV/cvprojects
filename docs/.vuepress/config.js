@@ -8,13 +8,19 @@ module.exports = {
   themeConfig: {
     search: false,
 <<<<<<< HEAD
+<<<<<<< HEAD
     sidebar: [' '],
     // displayAllHeaders: true, // 默认值：false
 =======
+=======
+>>>>>>> parent of c533aa7... v3
     sidebar: [
       '/'
     ],
     displayAllHeaders: true, // 默认值：false
+<<<<<<< HEAD
+>>>>>>> parent of c533aa7... v3
+=======
 >>>>>>> parent of c533aa7... v3
     /*
     nav: [
