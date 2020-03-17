@@ -6,10 +6,16 @@ module.exports = {
   dest: "./dist",
 
   themeConfig: {
-    sidebarDepth: 2,
     search: false,
+<<<<<<< HEAD
     sidebar: [' '],
     // displayAllHeaders: true, // 默认值：false
+=======
+    sidebar: [
+      '/'
+    ],
+    displayAllHeaders: true, // 默认值：false
+>>>>>>> parent of c533aa7... v3
     /*
     nav: [
       { text: "Home", link: "/" },
