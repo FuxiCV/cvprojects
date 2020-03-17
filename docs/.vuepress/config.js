@@ -9,8 +9,10 @@ module.exports = {
   themeConfig: {
     sidebarDepth: 2,
     search: false,
-    sidebar: ['FuxiCV'],
-    displayAllHeaders: true, // 默认值：false
+    sidebar: [
+      ''
+  ],
+    displayAllHeaders: false, // 默认值：false
     /*
     nav: [
       { text: "Home", link: "/" },

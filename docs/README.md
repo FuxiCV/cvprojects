@@ -1,4 +1,3 @@
-@@ -1,501 +0,0 @@
 ---
 pageClass: home-page
 # some data for the components
