@@ -19,7 +19,7 @@ bio: Computer Vision Group at Netease Fuxi AI Lab
 
 ## About
 
-[网易游戏伏羲实验室(https://fuxi.163.com/)]图像动作组致力于以AI技术赋能游戏制作和玩法交互，增强游戏沉浸感，这里列出了我们在探索AI+游戏落地中总结出的部分高价值研究课题，欢迎所有对此有兴趣的同仁与我们合作，共同推进课题落地和论文发表。
+[网易游戏伏羲实验室](https://fuxi.163.com/)图像组致力于以AI技术赋能游戏制作和玩法交互，增强游戏沉浸感，这里列出了我们在探索AI+游戏落地中总结出的部分高价值研究课题，欢迎所有对此有兴趣的同仁与我们合作，共同推进课题落地和论文发表。
 
 <!--
 
@@ -453,8 +453,9 @@ Sept 1991 - 1997
 </ProjectCard>
 
 ## Reports
-- [机器之心：《只需一张自拍，网易伏羲用这种方法直接生成「个人专属」游戏角色(https://www.jiqizhixin.com/articles/2019-09-09-18)]
-- [九游：《逆水寒》AI智能捏脸及双脸融合功能系统上线(http://www.9game.cn/news/2696879.html)]
+- [九游：《逆水寒》AI智能捏脸及双脸融合功能系统上线](http://www.9game.cn/news/2696879.html)
+- [机器之心：《只需一张自拍，网易伏羲用这种方法直接生成「个人专属」游戏角色](https://www.jiqizhixin.com/articles/2019-09-09-18)
+- [机器之心：人工智能改变游戏未来？网易伏羲AI Lab展示游戏开发黑科技](https://www.jiqizhixin.com/articles/2019-05-22-14)
 
 
 <!-- Custom style for this page -->
