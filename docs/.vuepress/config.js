@@ -11,6 +11,7 @@ module.exports = {
     sidebar: 'auto',
     // sidebarDepth: 2,
     displayAllHeaders: false, // 默认值：false
+    navbar: false,
     /*
     nav: [
       { text: "Home", link: "/" },
