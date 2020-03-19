@@ -402,7 +402,7 @@ Sept 1991 - 1997
 
   Jiangke Lin, Yi Yuan\*, Tianjia Shao, Kun Zhou
 
-  Computer Vision and Pattern Recognition (CVPR), 2020
+  Computer Vision and Pattern Recognition (**CVPR**), 2020
   
   [[PDF](https://arxiv.org/pdf/2003.05653.pdf)] [[arXiv](https://arxiv.org/abs/2003.05653)]
 
@@ -414,7 +414,7 @@ Sept 1991 - 1997
   
   Tianyang Shi, Zhengxia Zou, Yi Yuan\*, Changjie Fan
 
-  the Association for the Advance of Artificial Intelligence (AAAI), 2020
+  the Association for the Advance of Artificial Intelligence (**AAAI**), 2020
 
 </ProjectCard>
 
@@ -424,7 +424,7 @@ Sept 1991 - 1997
   
   Hao Zhang, Mengmeng Wang, Yong Liu, Yi Yuan
 
-  the Association for the Advance of Artificial Intelligence (AAAI), 2020
+  the Association for the Advance of Artificial Intelligence (**AAAI**), 2020
 
 </ProjectCard>
 
@@ -434,7 +434,7 @@ Sept 1991 - 1997
   
   Tianyang Shi, Yi Yuan\*, Changjie Fan, Zhengxia Zou, Zhenwei Shi, Yong Liu
 
-  International Conference on Computer Vision (ICCV), 2019
+  International Conference on Computer Vision (**ICCV**), 2019
 
   [[PDF](https://arxiv.org/pdf/1909.01064.pdf)] [[arxiv](https://arxiv.org/abs/1909.01064)]
 
@@ -446,7 +446,7 @@ Sept 1991 - 1997
   
   Lijuan Liu, Youyi Zheng, Di Tang, Yi Yuan, Changjie Fan, Kun Zhou
 
-  ACM Transactions on Graphics (SIGGRAPH), 2019 (Oral)
+  ACM Transactions on Graphics (**SIGGRAPH**), 2019 (**Oral**)
 
   [[PDF](https://nos.netease.com/mg-file/mg/neteasegamecampus/art_works/20190624/201906242016238583.pdf)] [[Data](http://fuxi.163.com/thesis/neuro.html)] 
 
@@ -454,7 +454,7 @@ Sept 1991 - 1997
 
 ## Reports
 - [九游：《逆水寒》AI智能捏脸及双脸融合功能系统上线](http://www.9game.cn/news/2696879.html)
-- [机器之心：《只需一张自拍，网易伏羲用这种方法直接生成「个人专属」游戏角色](https://www.jiqizhixin.com/articles/2019-09-09-18)
+- [机器之心：只需一张自拍，网易伏羲用这种方法直接生成「个人专属」游戏角色](https://www.jiqizhixin.com/articles/2019-09-09-18)
 - [机器之心：人工智能改变游戏未来？网易伏羲AI Lab展示游戏开发黑科技](https://www.jiqizhixin.com/articles/2019-05-22-14)
 
 
