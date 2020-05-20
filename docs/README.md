@@ -7,7 +7,7 @@ profile: /fuxi.png
 
 socials:
   - title: email
-    icon: "fuxicv/icons/email.svg"
+    icon: "/icons/email.svg"
     link: 'mailto:yyshawn@163.com'
 
 # cv: https://en.wikipedia.org/wiki/Harry_Potter
