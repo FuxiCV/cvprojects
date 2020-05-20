@@ -21,6 +21,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:yiyuan1991/yiyuan1991.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:yiyuan1991/fuxicv.git master
+git push -f git@github.com:FuxiCV/fuxicv.git master
 
 cd -

@@ -7,7 +7,7 @@ info: 'Student at Hogwarts School'
 interests: 'Interests: Quidditch and Wizard chess.'
 socials:
 - title: github
-  link: https://github.com/yiyuan1991
+  link: https://github.com/FuxiCV
 - title: linkedin
   link: https://www.linkedin.com
 - title: instagram
@@ -18,7 +18,7 @@ actions:
 - text: Projects
   link: /projects/
 - text: Blog
-  link: https://github.com/yiyuan1991
+  link: https://github.com/FuxiCV
 - text: CV
   link: /article/
 footer: Powered by VuePress
