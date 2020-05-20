@@ -3,8 +3,8 @@
 # 确保脚本抛出遇到的错误
 set -e
 
-# 生成静态文件
-npm run build
+# npm install  # 第一次运行的时候要先跑这一句install
+npm run build  # 生成静态文件
 
 # 进入生成的文件夹
 cd dist
